@@ -15,7 +15,7 @@ p {
 input {
   font-size: 32px;
   margin-bottom: 20px;
-  width: 800px;
+  width: min(calc(100vw - 10%), 800px);
 }
 
 pre {
