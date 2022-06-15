@@ -10,12 +10,13 @@ h1 {
 a,
 p {
   color: grey;
+  padding: 16px;
 }
 
 input {
   font-size: 32px;
   margin-bottom: 20px;
-  width: min(calc(100vw - 10%), 800px);
+  width: min(calc(100vw - 32px), 800px);
 }
 
 pre {
